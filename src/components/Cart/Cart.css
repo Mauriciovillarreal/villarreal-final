@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+} 
+
+.carritoVacio {   
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    padding-top: 130px;
+}
+.Carrito {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+    width: 100%;
+    padding-top: 30px;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.ruta {
+    padding: 60px 20px 0px 20px;
+    font-size: 14px;
+    text-align:left;
+}
+.Carrito h1 {
+    font-size: 26px;
+    padding: 20px;
+    text-align:left;
+}
+.btnChekoutfc{
+    display: inline-block;
+    background-color: black;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 40px;
+    margin: 5px;   
+    text-decoration: none;
+    padding: 5px;   
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+} 
+.btnChekout {
+    background-color: transparent;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 40px;
+    margin: 5px;   
+    text-decoration: none;
+    padding: 5px;   
+    text-transform: uppercase;
+    color: black;
+}
+
+.btnChekoutfc p {
+    color: rgb(255, 255, 255);
+}

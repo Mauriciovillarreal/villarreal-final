@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+} 
+
+.cartWidget img {
+    width: 26px;
+    margin-bottom: 15px;
+    z-index: 999;
+    position: relative;
+}
+
+.cartWidget strong {
+
+    font-size: 15px;
+    text-decoration-line: none;
+}
+
+.cartWidget {
+    text-decoration: none;
+}
+
+strong {
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
