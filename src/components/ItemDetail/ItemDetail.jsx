@@ -28,16 +28,16 @@ const ItemDetail = ({ id, nombre, precio, stock, img, descripcion, alto, ancho, 
       </Col>
       <Col className='itemDetail2'>
         <h2>{nombre}</h2>
+        <h3>${precio} </h3>
         <img src="../img/tarjetas.png" alt=""/>
 
         {
           AgregarCantidad > 0 ? (<Link to="/cart" className='endbuy'>Terminar compra</Link>) : (<ItemCount inicial = {1} stock = {stock} funcionAgregar = {manejadorCantidad}/>)
         }
-        <h3>${precio} </h3>
 
         <h5>Descripción</h5>
         <p>{descripcion}</p>
-        <h6>Medidas de lentes</h6>
+        <h5>Medidas de lentes</h5>
         <div> Alto {alto}mm</div>
         <div> Ancho {ancho}mm</div>
         <div> Puente {puente}mm</div>
