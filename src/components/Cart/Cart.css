@@ -14,7 +14,7 @@
 }
 .Carrito {
     font-family: 'Montserrat', sans-serif;
-    padding-left: 10px;
+
     width: 100%;
     padding-top: 30px;
     align-items: center;
@@ -40,9 +40,9 @@
     text-align: center;
     width: 500px;
     height: 40px;
-    margin: 5px;   
+    margin: 5px;
     text-decoration: none;
-    padding: 5px;   
+    padding: 6px;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
 } 
@@ -54,13 +54,22 @@
     text-align: center;
     width: 500px;
     height: 40px;
-    margin: 5px;   
+    margin: 5px;
     text-decoration: none;
-    padding: 5px;   
+
     text-transform: uppercase;
     color: black;
 }
 
 .btnChekoutfc p {
     color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 1024px) {
+    .btnChekout {
+        width: 96%;
+    }
+    .btnChekoutfc {
+        width: 96%;
+    }
 }

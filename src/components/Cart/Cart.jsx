@@ -24,14 +24,11 @@ export const Cart = () => {
                 carrito.map(prod => <CartItem className="cartView" key={prod.id} {...prod} />)
             }
             <div>
-                
                 <button className="btnChekout" onClick={() => vaciarCarrito()}> Vaciar Carrito </button>
             </div>
             <div className="btnChekoutfc">
                 <Link className="link" to="/checkout"> <p>Finalizar Compra  -  Total:   ${total}  </p> </Link>
-
             </div>
-
         </div>
     )
 }
