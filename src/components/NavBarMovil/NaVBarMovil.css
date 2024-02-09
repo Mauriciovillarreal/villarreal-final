@@ -11,6 +11,13 @@
 }
 .navMovil h1 {
     text-align: center;
+    margin-top: 6px;
+}
+
+h1 i {
+
+    font-size: 35px;
+    font-weight: 5;
 }
 .navbar__me a {
     text-decoration: none;
