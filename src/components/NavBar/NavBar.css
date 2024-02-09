@@ -13,6 +13,7 @@
     text-decoration: none;
 }
 header {
+    top: 0;
     width: 100%;
     position: fixed;
     background-color: #f4f4f4;
@@ -46,4 +47,10 @@ h1 i {
 .link {
     color: #373737;
     text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        display: none;
+    }
 }

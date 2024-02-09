@@ -11,7 +11,7 @@ import { collection, getDocs, where, query } from 'firebase/firestore';
 const ItemListContainer = () => {
   const [productos, setProductos] = useState([]);
 
-  const {idCategoria} = useParams();
+  const { idCategoria } = useParams();
 
   useEffect(() => {
 
@@ -21,7 +21,7 @@ const ItemListContainer = () => {
       .then(res => {
         const nuevosProductos = res.docs.map(doc => {
           const data = doc.data();
-          return {id: doc.id, ...data};
+          return { id: doc.id, ...data };
         })
         setProductos(nuevosProductos);
       })
@@ -30,13 +30,13 @@ const ItemListContainer = () => {
 
   return (
     <>
-       <img className='banner' src="../img/gatinho.jpg" alt="" />
-    <Container>
-       <h5>CATÁLOGO</h5>
-      <ItemList productos={productos}/>
-    </Container>
+      <div className='igBanner'></div>
+      <Container>
+        <h5>CATÁLOGO</h5>
+        <ItemList productos={productos} />
+      </Container>
     </>
-    
+
   )
 }
 
