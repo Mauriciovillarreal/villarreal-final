@@ -29,3 +29,11 @@ strong {
 .link {
     text-decoration: none;
 }
+
+@media screen and (max-width: 1024px) {
+    .cartWidget img {
+        width: 26px;
+        margin-bottom: 5px;
+        margin-left: 14px;
+    }
+}
