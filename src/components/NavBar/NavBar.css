@@ -50,7 +50,7 @@ h1 i {
 }
 
 @media screen and (max-width: 1024px) {
-    .header {
+    header {
         display: none;
     }
 }
