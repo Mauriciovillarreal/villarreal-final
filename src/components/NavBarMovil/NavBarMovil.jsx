@@ -5,7 +5,7 @@ export const NavBarMovil = () => {
     return (
         <>
          <div className='navMovil'>
-            <nav className='navbar__me'>
+            <div className='navbar__me'>
                 <Link className="link" to="/">
                     <h1><i>MAURINHO</i></h1>
                 </Link>
@@ -43,7 +43,7 @@ export const NavBarMovil = () => {
                     </li>
                 </ul>
 
-            </nav>
+            </div>
         </div>
         </>
        
