@@ -10,6 +10,7 @@
 .imgCol img {
     margin-top: -110px;
     width: 500px;
+    max-width: 100%;
 }
 
 .itemDetail2 {

@@ -4,30 +4,44 @@
     margin: 0;
     text-decoration: none;
 } 
-
-.carritoVacio {   
-    text-transform: uppercase;
-    text-align: center;
+.carritoVacio {
     font-family: 'Montserrat', sans-serif;
-    padding: 20px;
-    padding-top: 130px;
+    margin-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.CarritoScroll {
+    overflow-y: scroll;
+    height: 65vh;
+}
+.carritoVacio h6 {
+    border: 1px solid;
+    margin: 10px 30%;
+    text-decoration: none;
+    padding: 3px;
+}
+.btnVerProducots {
+    text-decoration: none;
+    color: black;
 }
 .Carrito {
     font-family: 'Montserrat', sans-serif;
-
     width: 100%;
-    padding-top: 30px;
+    padding-top: 60px;
     align-items: center;
     text-align: center;
     color: black;
 }
 .ruta {
-    padding: 60px 20px 0px 20px;
+    margin-top: 10px;
+    padding: 20px 20px 0px 20px;
     font-size: 14px;
     text-align:left;
 }
 .Carrito h1 {
     font-size: 26px;
+    margin-top: -30px;
     padding: 20px;
     text-align:left;
 }
@@ -64,6 +78,7 @@
 .btnChekoutfc p {
     color: rgb(255, 255, 255);
 }
+
 
 @media screen and (max-width: 1024px) {
     .btnChekout {
