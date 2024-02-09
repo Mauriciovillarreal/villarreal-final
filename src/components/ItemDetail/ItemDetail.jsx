@@ -23,11 +23,11 @@ const ItemDetail = ({ id, nombre, precio, stock, img, descripcion, alto, ancho, 
   return (
     <Container>
     <Row className='itemDetail'>
-      <Col>
+      <Col className='imgCol'>
       <img src={img} alt={nombre} />
       </Col>
       <Col className='itemDetail2'>
-        <h2>{nombre} </h2>
+        <h2>{nombre}</h2>
         <img src="../img/tarjetas.png" alt=""/>
 
         {
