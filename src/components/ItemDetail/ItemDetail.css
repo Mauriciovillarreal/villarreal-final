@@ -1,6 +1,8 @@
 .itemDetail {
     font-family: 'Montserrat', sans-serif;
     padding-top: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgCol {
@@ -9,8 +11,7 @@
 }
 .imgCol img {
     margin-top: -110px;
-    width: 500px;
-    max-width: 100%;
+    width: 600px;
 }
 
 .itemDetail2 {
@@ -66,10 +67,9 @@
         width: 100%;    
     }
     .imgCol img {
-        justify-content: center;
         text-align: center;
-        margin-top: 10px;
-        width: 95vw;
+        margin-top: 40px;
+        width: 80%;
     }
     .itemDetail2 {
 
