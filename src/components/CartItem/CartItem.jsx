@@ -11,13 +11,19 @@ export const CartItem = ({ item, cantidad, }) => {
       <div>
         <img src={item.img} alt="" />
       </div>
-      <h5> {item.nombre}  </h5>
-      <div> Cantidad: {cantidad} </div>
-      <div> ${item.precio} </div>
       <div>
-      <button className='bin-button' onClick={() => eliminarProducto(item.id)}>
-       
-      </button>
+        <h5> {item.nombre}  </h5>
+        <div> ${item.precio} </div>
+        <div> Cantidad: {cantidad}
+        </div>
+          <button className='bin-button' onClick={() => eliminarProducto(item.id)}>
+            <p>BORRAR</p>
+          </button>
+
+
+        <div>
+
+        </div>
 
       </div>
     </div>
