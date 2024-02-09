@@ -12,7 +12,7 @@ const App = () => {
     <>
       <BrowserRouter>
         <CarritoProvider>
-         <NavBar />
+         <NavBar/>
           <Routes>
             <Route path='/' element={ <ItemListContainer /> } />
             <Route path='/categoria/:idCategoria' element={ <ItemListContainer /> } />
