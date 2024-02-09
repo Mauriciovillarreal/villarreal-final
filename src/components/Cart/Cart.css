@@ -54,7 +54,7 @@
     text-align: center;
     width: 500px;
     height: 40px;
-    margin: 5px;
+
     text-decoration: none;
     padding: 6px;
     text-transform: uppercase;
@@ -68,23 +68,31 @@
     text-align: center;
     width: 500px;
     height: 40px;
-    margin: 5px;
     text-decoration: none;
-
     text-transform: uppercase;
     color: black;
+    margin-bottom: 10px;
 }
 
 .btnChekoutfc p {
     color: rgb(255, 255, 255);
 }
+.checkoutnav {
+    display: inline-block;
 
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
 
 @media screen and (max-width: 1024px) {
     .btnChekout {
-        width: 96%;
+     
+      margin-bottom: 10px;
+        width: 100%;
     }
     .btnChekoutfc {
-        width: 96%;
+        
+        width: 100%;
     }
 }
