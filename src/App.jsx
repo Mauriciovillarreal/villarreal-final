@@ -5,14 +5,13 @@ import { CarritoProvider } from './context/CarritoContext';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { Cart } from './components/Cart/Cart';
-import { NavBarMovil } from './components/NavBarMovil/NavBarMovil'
+
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
         <CarritoProvider>
-        <NavBarMovil />
          <NavBar />
           <Routes>
             <Route path='/' element={ <ItemListContainer /> } />
