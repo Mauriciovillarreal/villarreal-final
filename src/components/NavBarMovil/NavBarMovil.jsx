@@ -8,11 +8,11 @@ export const NavBarMovil = () => {
         <Link className="link" to="/">
         <h1><i>MAURINHO</i></h1>
       </Link>
-        <input type="checkbox" id="checkbox" class="checkbox"></input>
-        <label for="checkbox" class="toggle">
-                <div class="bars" id="bar1"></div>
-                <div class="bars" id="bar2"></div>
-                <div class="bars" id="bar3"></div>
+        <input type="checkbox" id="checkbox" className="checkbox"></input>
+        <label for="checkbox" className="toggle">
+                <div className="bars" id="bar1"></div>
+                <div className="bars" id="bar2"></div>
+                <div className="bars" id="bar3"></div>
             </label>
             <ul className='menu__me'>
             <li>
