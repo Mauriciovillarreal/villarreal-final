@@ -32,7 +32,6 @@ const ItemListContainer = () => {
     <>
       <div className='igBanner'></div>
       <Container>
-        <h5>CATÁLOGO</h5>
         <ItemList productos={productos} />
       </Container>
     </>
