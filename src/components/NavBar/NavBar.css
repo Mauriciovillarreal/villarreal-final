@@ -19,6 +19,7 @@ header {
     text-align: center;
     height: 85px;
     text-decoration: none;
+    border-bottom: 1px solid rgb(233, 233, 233);;
 }
 
 nav {

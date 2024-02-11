@@ -3,7 +3,6 @@ import { CarritoContext } from "../../context/CarritoContext"
 import { db } from "../../services/config"
 import { collection, addDoc } from "firebase/firestore"
 import "./Checkout.css";
-import Container from 'react-bootstrap/Container';
 
 export const Checkout = () => {
     const { carrito, vaciarCarrito, total } = useContext(CarritoContext)
