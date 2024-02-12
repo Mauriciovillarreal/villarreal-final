@@ -31,7 +31,7 @@ const ItemListContainer = () => {
   return (
     <>
       <div className='igBanner'></div>
-      <Container>
+      <Container fluid>
         <ItemList productos={productos} />
       </Container>
     </>
