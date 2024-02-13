@@ -30,10 +30,6 @@ const ItemListContainer = () => {
 
   return (
     <>
-     <video loop autoPlay>
-                        <source src="../video/bannermp4.mp4" type="video/mp4" ></source>
-                    </video>
-
       <div className='igBanner'></div>
       <Container fluid>
         <ItemList productos={productos} />
