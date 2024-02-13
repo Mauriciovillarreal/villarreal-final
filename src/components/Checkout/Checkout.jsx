@@ -54,6 +54,8 @@ export const Checkout = () => {
 
     return (
         <div className="padre">
+               <p className="ruta">Inicio/ Carrito/ Checkout</p>
+             <h1>Checkout - Finalizar Compra </h1>
             <form className="finalizarCompra" onSubmit={manejadorSubmit}>
                 <div className="inputDatos">
                     <div className="inputDatos1">

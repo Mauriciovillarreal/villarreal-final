@@ -1,14 +1,17 @@
 .padre {
     font-family: 'Montserrat', sans-serif;
-    padding-top: 80px;
+    padding-top: 60px;
     background-size: cover;
-    margin: 10px;
-    height: 86vh;
+}
+.ruta {
+    margin-top: 10px;
+    padding: 20px 20px 0px 20px;
+    font-size: 14px;
+    text-align:left;
 }
 
 .finalizarCompra {
     display: flex;
-    top: 80px;
     margin: 50px;
 }
 .inputDatos1 input {
@@ -17,12 +20,19 @@
 .inputDatos {
     width: 76%;
 }
+.padre h1 {
+    font-size: 26px;
+    margin-top: -30px;
+    padding: 20px;
+    text-align:left;
+    text-transform: uppercase;
+}
 
 .padre button { 
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 26px;
     width: 90%;
     border: none;
     border: 1px solid;
@@ -35,6 +45,7 @@
 }
 
 .derCheckout h6 {
+    text-transform: uppercase;
     font-size: 12px;
 }
 .derCheckout img {
@@ -76,9 +87,7 @@
     .inputDatos1 input {
         width: 99%;
     }
-    .padre {
-        margin: 25px;
-    }
+
     .inputDatos {
         width:100%;
     }
@@ -86,8 +95,10 @@
         width: 99%;
     }
     .inputDatos p {
-
         width: 99%;
+    }
+    .inputDatos {
+        padding: 15px;
 
     }
 }
