@@ -19,7 +19,7 @@ export const Checkout = () => {
         event.preventDefault();
 
         if (!nombre || !apellido || !telefono || !email || !emailConfirm) {
-            setError("¡Todos los datos deberían estar completos!");
+            setError("¡Todos los campos deberían estar completos!");
             return;
         }
 
@@ -48,64 +48,62 @@ export const Checkout = () => {
             })
             .catch(error => {
                 console.log("Error al crear la orden compra", error);
-                setError("No se pudo crear la orden, revisa tu codigo maldito");
+                setError("No se pudo crear la orden");
             })
     }
 
     return (
         <div className="padre">
-
-            <form onSubmit={manejadorSubmit}>
-
-                <div className="imputDatos">
-                    <div className="imputDatos1">
+            <form className="finalizarCompra" onSubmit={manejadorSubmit}>
+                <div className="inputDatos">
+                    <div className="inputDatos1">
                         <div>
-                        <label htmlFor="nombre" >Nombre</label>
+                            <label htmlFor="nombre" >Nombre</label>
                         </div>
                         <div>
-                        <input type="text" id="nombre" placeholder="Nombre" onChange={(e) => setNombre(e.target.value)} />
-
+                            <input type="text" id="nombre" onChange={(e) => setNombre(e.target.value)} />
                         </div>
                     </div>
-
-                    <div className="imputDatos1">
+                    <div className="inputDatos1">
                         <div>
-                        <label htmlFor="apellido">Apellido  </label>
-
+                            <label htmlFor="apellido">Apellido  </label>
                         </div>
                         <div>
-
-                        <input type="text" id="apellido" placeholder="Apellido" onChange={(e) => setApellido(e.target.value)} />
+                            <input type="text" id="apellido" onChange={(e) => setApellido(e.target.value)} />
                         </div>
                     </div>
-
-                    <div className="imputDatos1">
-                        <label htmlFor="telefono">  telefono</label>
-                        <input type="text" id="telefono" placeholder="Telefono" onChange={(e) => setTelefono(e.target.value)} />
+                    <div className="inputDatos1">
+                        <div>
+                            <label htmlFor="telefono">Telefono</label>
+                        </div>
+                        <div>
+                            <input type="text" id="telefono" onChange={(e) => setTelefono(e.target.value)} />
+                        </div>
                     </div>
-
-                    <div className="imputDatos1">
-                        <label htmlFor="email"> email</label>
-                        <input type="email" id="email" placeholder="E-mail" onChange={(e) => setEmail(e.target.value)} />
+                    <div className="inputDatos1">
+                        <div>
+                            <label htmlFor="email"> Email</label>
+                        </div>
+                        <div>
+                            <input type="email" id="email" onChange={(e) => setEmail(e.target.value)} />
+                        </div>
                     </div>
-
-                    <div className="imputDatos1">
-                        <label htmlFor="emailcon">  email </label>
-                        <input type="email" id="emailcon" placeholder="E-mail" onChange={(e) => setEmailConfirm(e.target.value)} />
+                    <div className="inputDatos1">
+                        <div>
+                            <label htmlFor="emailcon">  Confirmar Email </label>
+                        </div>
+                        <div>
+                            <input type="email" id="emailcon" onChange={(e) => setEmailConfirm(e.target.value)} />
+                        </div>
                     </div>
-
                     {
                         error && <p> {error} </p>
                     }
-
                     <button> Finalizar Orden </button>
-
                     {
-                        orderId && <strong>¡Gracias por su compra! Tu número de orden es el siguiente: {orderId} </strong>
+                        orderId && <div className="compraFinalizada">¡Gracias por su compra! Tu número de orden es el siguiente: {orderId} </div>
                     }
                 </div>
-
-
                 <div className="derCheckout">
                     {
                         carrito.map(producto => (
@@ -114,19 +112,19 @@ export const Checkout = () => {
                                     <div>
                                         <img src={producto.item.img} alt="" /> <strong>x{producto.cantidad}</strong>
                                     </div>
-                                    <div>
-                                        <h5> {producto.item.nombre} </h5>
-                                        <h5>${producto.item.precio}</h5>
+                                    <div className="margincc">
+                                        <h6> {producto.item.nombre} </h6>
+                                        <h6>${producto.item.precio}</h6>
                                     </div>
                                 </div>
+                                <hr />
                             </>
 
                         ))
                     }
+                
                     <h5>TOTAL: ${total}</h5>
                 </div>
-
-
             </form>
         </div>
     )

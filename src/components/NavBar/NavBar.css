@@ -5,6 +5,7 @@
     text-decoration: none;
 } 
 
+
 .header {
     display: flex;
     align-items: center;
@@ -56,8 +57,7 @@ h1 i {
     border: none;
 }
 .navMovil {
-    top: 0px;
-    height: 0px;
+    height: 5px;
     width: 100%;
     text-align: center;
     position: fixed;
@@ -84,7 +84,6 @@ h1 i {
     text-align: center !important;
 }
 .container h1 i {
-    margin-top: -6px;
     text-align: center !important;
 }
 
@@ -118,15 +117,5 @@ h1 i {
     }
     .titleH1 h1 i {
         display: none;
-    }
-    header {
-        height: 0px;
-    }
-    nav {
-        top: 0px;
-    }
-    h1 i { 
-        font-weight: -550;
-
     }
 }
