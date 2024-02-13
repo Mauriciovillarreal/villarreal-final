@@ -42,7 +42,7 @@ export const Cart = () => {
                     <button className="btnChekout" onClick={() => vaciarCarrito()}> Vaciar Carrito </button>
                 </div>
                 <div className="btnChekoutfc">
-                    <Link className="link" to="/checkout"> <p>Finalizar Compra  -  Total:   ${total}  </p> </Link>
+                    <Link className="link" to="/checkout"> <div>Finalizar Compra  -  Total:   ${total}  </div> </Link>
                 </div>
             </div>
         </div>
