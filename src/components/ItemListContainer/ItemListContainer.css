@@ -3,11 +3,7 @@
     margin: 0;
 }
 
+video {
+    width: 100%;
 
-.igBanner {
-    background-image: url(../../../public/img/gatinho.jpg);
-    height: 70vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
