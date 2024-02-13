@@ -2,12 +2,14 @@
     font-family: 'Montserrat', sans-serif;
     padding-top: 60px;
     background-size: cover;
+    height: 100%;
+    padding-bottom: 90px;
 }
 .ruta {
     margin-top: 10px;
     padding: 20px 20px 0px 20px;
     font-size: 14px;
-    text-align:left;
+    text-align: left;
 }
 
 .finalizarCompra {
@@ -99,6 +101,8 @@
     }
     .inputDatos {
         padding: 15px;
-
+    }
+    .padre {
+        height: 85vh;
     }
 }
