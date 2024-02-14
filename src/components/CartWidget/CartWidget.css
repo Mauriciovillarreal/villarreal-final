@@ -4,30 +4,26 @@
     margin: 0;
     text-decoration: none;
 } 
-
+.cartWidget {
+    position: relative;
+    bottom: 8px;
+}
 .cartWidget img {
     width: 26px;
-    margin-bottom: 15px;
-    z-index: 999;
-    position: relative;
 }
 
-.cartWidget strong {
 
-    font-size: 15px;
-    text-decoration-line: none;
-}
 
-.cartWidget {
-    text-decoration: none;
-}
 
 strong {
+    margin-top: 2px;
     text-decoration: none;
 }
 
-.link {
+.link2 {
+    display: flex;
     text-decoration: none;
+    color: black;
 }
 
 @media screen and (max-width: 1024px) {
@@ -35,5 +31,16 @@ strong {
         width: 26px;
         margin-bottom: 5px;
         margin-left: 5px;
+        bottom: -3px;
+    }
+    .cartWidget strong {
+        bottom: 21px;
+    }
+    .cartWidget strong {
+        position: inherit;
+        bottom: 1px;
+    }
+    .cartWidget {
+        bottom: -4px;
     }
 }
