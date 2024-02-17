@@ -11,7 +11,7 @@ export const Footer = () => {
 
         <div className="redes">
           <h1><i>MAURINHO</i></h1>
-          <img className="instagram" src="../img/instagram.png" alt="" />
+          <img className="instagram" src="../img/insta.png" alt="" />
           <img className="whatsapp" src="../img/whatsapp.png" alt="" />
         </div>
         <hr />
