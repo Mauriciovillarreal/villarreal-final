@@ -3,7 +3,7 @@
     padding-top: 60px;
     background-size: cover;
     height: 100%;
-    padding-bottom: 90px;
+
 }
 .ruta {
     margin-top: 10px;
@@ -85,7 +85,6 @@
     .finalizarCompra {
         flex-direction: column-reverse;
         margin: 10px;
-        padding-bottom: 200px;
     }
     .inputDatos1 input {
         width: 99%;
@@ -96,7 +95,6 @@
     }
     .padre button { 
         width: 99%;
-        margin-bottom: 100px;
     }
     .inputDatos p {
         width: 99%;
@@ -104,7 +102,5 @@
     .inputDatos {
         padding: 15px;
     }
-    .padre {
-        height: 85vh;
-    }
+
 }
