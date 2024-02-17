@@ -8,12 +8,13 @@ export const Footer = () => {
 
     <footer>
       <Container>
-        <div className="redes">
-          <img className="instagram" src="../img/Instagram.png" alt="" />
-          <img className="youtube" src="../img/youtube.png" alt="" />
-          <img className="x" src="../img/logo-black.png" alt="" />
 
+        <div className="redes">
+          <h1><i>MAURINHO</i></h1>
+          <img className="instagram" src="../img/instagram.png" alt="" />
+          <img className="whatsapp" src="../img/whatsapp.png" alt="" />
         </div>
+        <hr />
         <div>
           <h6>
             MEDIOS DE PAGO
@@ -30,8 +31,10 @@ export const Footer = () => {
           </h6>
 
         </div>
+        <hr />
         <div className="footer">
-          © 2024 MAURINHO | Todos los derechos reservados
+           © Copyright MAURINHO - Exclusive Productions - 2024. Todos los derechos reservados
+           
         </div>
       </Container>
     </footer>
